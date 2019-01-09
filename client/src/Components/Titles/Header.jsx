@@ -14,7 +14,8 @@ class Header extends Component {
                     src={require('../../docs/logo.png')}
                     alt="Icon made by http://www.freepik.com/ from https://www.flaticon.com" />
                 <div className="site-title">
-                    POWER SCOUTER
+                    POWER<br></br>
+                    SCOUTER
             </div>
                 <div className="date">
                     {this.props.date}

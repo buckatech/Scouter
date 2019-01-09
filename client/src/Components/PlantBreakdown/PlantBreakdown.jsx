@@ -9,18 +9,18 @@ class PlantBreakdown extends Component {
         <div className="plant-container">
           <div className="power-plant-breakdown-table-header">
             <div className="breakdown-table-title">GENERATION - PLANT</div>
-            <div className={`power-plant-breakdown-summary biomass-bar ${this.props.energytype.toLowerCase()}-bar`}>
-              <div className="power-plant-breakdown-summary-title">
-                {this.props.energytype}
-                <div className="power-plant-breakdown-summary-bar-background">
-                  <div className="power-plant-breakdown-summary-bar" style={{ width: `${this.props.targetPercent}%` }} />
-                </div>
-                <div className="power-plant-breakdown-summary-values">
-                  <div>
-                    <span className="power-plant-breakdown-summary-percentage">{this.props.targetPercent}</span>% (of total grid)
+              <div className={`power-plant-breakdown-summary biomass-bar ${this.props.energytype.toLowerCase()}-bar`}>
+                <div className="power-plant-breakdown-summary-title">
+                  {this.props.energytype}
+                  <div className="power-plant-breakdown-summary-bar-background">
+                    <div className="power-plant-breakdown-summary-bar" style={{ width: `${this.props.targetPercent}%` }} />
+                    </div>
+                  <div className="power-plant-breakdown-summary-values">
+                    <div>
+                      <span className="power-plant-breakdown-summary-percentage">{this.props.targetPercent}</span>% (of total grid)
+                    </div>
                   </div>
                 </div>
-              </div>
               <div className="power-plant-column-header">
                 <table className="power-plant-breakdown-table-div">
                   <thead>
