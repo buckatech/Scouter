@@ -20,6 +20,7 @@ scouterAlpha.azurewebsites.net
 - React
 - Google Maps
 - D3
+
 ## Dependencies
 
 - bluebird
