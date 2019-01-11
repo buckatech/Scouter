@@ -1,6 +1,6 @@
 # Power Scouter
 
-Power Scouter is a data graphing app for power generation in Alberta made by Taylor Cameron, Alex Buck, and Katherine Connolly for Lighthouse Labs in Calgary.
+Power Scouter is a data graphing app for power generation in Alberta made by Taylor Cameron, Alex Buck, and Katherine Connolly for Lighthouse Labs in Calgary.  
 
 Using data from AESO, it maps the current output of all forms of energy and the powerplants that produce them.
 
